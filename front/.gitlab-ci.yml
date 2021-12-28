@@ -1,0 +1,15 @@
+stages:
+  - build
+
+deploy:
+  stage: build
+  script:
+    - npm install
+    - CI='' npm run build
+    - find ./build -name "*.map" -delete
+    - rm -rf /temp/*
+    - cp -R ./build/* /temp
+  tags:
+    - KHUserver
+  only:
+    - production

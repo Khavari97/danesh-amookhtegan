@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1702.247" height="1106.803"
+     viewBox="0 0 1702.247 1106.803">
+    <defs>
+        <filter id="حاشیه_سبز_کم_رنگ" x="535" y="424.658" width="934.247" height="682.145" filterUnits="userSpaceOnUse">
+            <feOffset dx="-10" dy="3"/>
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="حاشیه_سبز_پر_رنگ" x="1055.799" y="0" width="646.448" height="1103.803" filterUnits="userSpaceOnUse">
+            <feOffset dx="-10"/>
+            <feGaussianBlur stdDeviation="4" result="blur-2"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="حاشیه_سبز_کم_رنگ-2" x="0" y="3" width="934.247" height="682.145" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" dy="3"/>
+            <feGaussianBlur stdDeviation="4" result="blur-3"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_63" transform="translate(-220 12)">
+        <g transform="matrix(1, 0, 0, 1, 220, -12)" filter="url(#حاشیه_سبز_کم_رنگ)">
+            <path id="حاشیه_سبز_کم_رنگ-3"
+                  d="M-6.693,658.145s43.008-87.009,118.242-180.711,162.863-91.471,187.4-102.626,94.194-17.848,153.939-93.7S544.4,194.1,548.825,189.635,620.32,138.322,722.107,129.4,903.554,0,903.554,0V658.145Z"
+                  transform="translate(563.69 433.66)" fill="#7dc02f"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 220, -12)" filter="url(#حاشیه_سبز_پر_رنگ)">
+            <path id="حاشیه_سبز_پر_رنگ-2"
+                  d="M0,1079.8s44.62-194.1,156.17-296.723S330.188,658.144,354.729,584.521,381.5,493.051,379.27,439.507s46.851-78.085,87.009-109.319,0-133.86,40.158-198.559,35.7-58.006,58.006-82.547S622.449,0,622.449,0V1079.8Z"
+                  transform="translate(1077.8 12)" fill="#046b00"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 220, -12)" filter="url(#حاشیه_سبز_کم_رنگ-2)">
+            <path id="حاشیه_سبز_کم_رنگ-4"
+                  d="M903.554,0S860.547,87.009,785.313,180.711s-162.863,91.471-187.4,102.626-94.194,17.848-153.939,93.7-91.508,87.009-95.933,91.471-71.495,51.313-173.282,60.237S-6.693,658.145-6.693,658.145V0Z"
+                  transform="translate(8.69 12)" fill="#7dc02f"/>
+        </g>
+    </g>
+</svg>

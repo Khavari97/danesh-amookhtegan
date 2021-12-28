@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render auth without error snapshot 1`] = `
+<section
+  className="section"
+>
+  <div
+    className="MuiGrid-root formContainer MuiGridRoot MuiGrid-container MuiGrid-spacing-xs-4"
+  >
+    <div
+      className="MuiGrid-root muiGridRoot MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      data-test="children"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <img
+        alt=""
+        className="imgRight"
+      />
+    </div>
+  </div>
+  <div
+    className="background"
+  >
+    <img
+      alt="background"
+      className="background1"
+      data-test="darkGreenDown"
+      src="dark-green-down.svg"
+    />
+    <img
+      alt="background"
+      className="background2"
+      data-test="darkGreenTop"
+      src="dark-green-top.svg"
+    />
+    <img
+      alt="background"
+      className="background3"
+      data-test="lightGreenDown"
+      src="light-green-down.svg"
+    />
+    <img
+      alt="background"
+      className="background4"
+      data-test="lightGreenTop"
+      src="light-green-top.svg"
+    />
+  </div>
+</section>
+`;

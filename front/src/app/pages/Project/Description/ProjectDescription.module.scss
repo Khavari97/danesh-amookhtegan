@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.title svg {
+  width: 1rem;
+}
+
+
+.description {
+  margin-right: 1rem !important;
+  word-wrap: break-word;
+}
+
+
+.skills {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}

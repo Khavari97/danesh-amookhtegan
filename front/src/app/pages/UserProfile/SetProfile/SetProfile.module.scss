@@ -1,0 +1,141 @@
+.formContainer {
+  padding: 20px 20px;
+}
+
+.SetProfile {
+  padding: 7% 5%;
+  background-color: #f5fceb;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.header {
+  border-bottom: 4px solid #046b00;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 10px 0;
+  margin-bottom: 10px !important;
+
+  p {
+    font-size: calc(19px + (35 - 19) * ((100vw - 300px) / (1600 - 300)));
+    margin: 0 8px;
+    font-weight: bold;
+  }
+}
+
+.lineMiddle {
+  border-right: 1px solid #f1f1f136;
+}
+
+.privateInfo {
+  .gridItems {
+    border-bottom: 1px solid darkgray;
+
+    &:nth-child(2n-1) {
+      border-left: 1px solid darkgray;
+    }
+
+    &:nth-last-child(-n + 1) {
+      border-bottom: unset;
+    }
+  }
+}
+
+.gridItems {
+  text-align: center;
+  padding: 2px 12px;
+
+  .gridInputs {
+    padding-left: 6px;
+
+    input {
+      padding: 15px 12px;
+    }
+  }
+}
+
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p.title {
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+  margin: 0;
+  word-break: break-word;
+}
+
+p.description {
+  color: darkgray;
+  font-weight: bold;
+  direction: ltr;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .privateInfo {
+    .gridItems {
+      border-left: unset !important;
+    }
+  }
+}
+
+.publicInfo {
+  width: 80% !important;
+  margin: 40px auto;
+  padding: 7% 5%;
+  background-color: #f5fceb;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+  .infoGrid {
+    margin-bottom: 6%;
+  }
+
+  .gridItems {
+    border-bottom: 1px solid darkgray;
+
+    &:nth-child(2n-1) {
+      border-left: 1px solid darkgray;
+    }
+
+    &:nth-last-child(-n + 1) {
+      border-bottom: unset;
+    }
+  }
+
+  .skillChip {
+    border: 5px #7dc02f solid;
+    border-radius: 5px;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #046b00;
+    text-align: center;
+    padding: 3px 8px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 576px) {
+  .publicInfo {
+    width: 90%;
+  }
+
+  .publicInfo {
+    .gridItems {
+      border-left: unset !important;
+    }
+  }
+}

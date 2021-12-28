@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to snapshot on success: FETCH_SUCCESS 1`] = `
+Object {
+  "error": "",
+  "loading": false,
+  "res": "test",
+}
+`;

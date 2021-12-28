@@ -1,0 +1,85 @@
+.form {
+  padding-top: 30px;
+  top: 50%;
+  width: 90%;
+  position: absolute;
+  transform: translateY(-50%);
+
+  input {
+    font-weight: 600;
+    padding: 9.5px 14px !important;
+  }
+
+  label {
+    font-weight: 600;
+  }
+
+  button {
+    width: 100%;
+
+    span {
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+
+  p,
+  span {
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  a {
+    color: #7DC02F;
+  }
+
+  a:hover,
+  a:focus {
+    color: #046b00;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-weight: 600;
+  }
+
+  .itemContainer {
+    width: 70%;
+    margin-bottom: 0.6em;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .icon {
+    width: 20px;
+    vertical-align: super;
+  }
+
+  .emailIcon {
+    width: 30%;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .form {
+    position: unset;
+    transform: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    position: unset;
+    transform: unset;
+
+    .itemContainer {
+      width: 100% !important;
+      margin-bottom: 0.6em;
+    }
+  }
+}

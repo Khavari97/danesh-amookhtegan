@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom tab component snapshot 1`] = `
+<div>
+  <header
+    className="MuiPaper-root MuiAppBar-root WithStyles(ForwardRef(AppBar))-root-1 MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      className="MuiTabs-root WithStyles(ForwardRef(Tabs))-root-2"
+    >
+      <div
+        className="MuiTabs-scrollable"
+        style={
+          Object {
+            "height": 99,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": -9999,
+            "width": 99,
+          }
+        }
+      />
+      <div
+        className="MuiTabs-scroller MuiTabs-scrollable"
+        onScroll={[Function]}
+        style={
+          Object {
+            "marginBottom": null,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <div
+          aria-label="tabs"
+          className="MuiTabs-flexContainer"
+          onKeyDown={[Function]}
+          role="tablist"
+        />
+      </div>
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,107 @@
+.main_layout {
+  z-index: 1;
+
+  .app_bar {
+    margin-bottom: 30px;
+    background-color: #7dc02f;
+    padding: 0 !important;
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: auto auto;
+
+      .Logo {
+        width: calc(20px + (30 - 20) * ((100vw - 568px) / (1600 - 568))) !important;
+        float: right;
+        margin-right: 20px;
+        margin-left: 23px;
+      }
+
+      .AppIcon {
+        font-size: 1.7rem;
+        margin: 5px 0 0 15px;
+      }
+
+      .title {
+        font-size: 1.25rem;
+        margin-top: 2px;
+        font-weight: bold;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+
+        a {
+          font-size: calc(11px + (15 - 11) * ((100vw - 568px) / (1600 - 568))) !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_layout {
+    .app_bar {
+      .toolbar {
+        grid-template-columns: none;
+
+        .AppIcon {
+          margin: 2px 0 0 15px;
+        }
+
+        .menu {
+          display: grid;
+          grid-template-columns: 50px  50px auto 50px;
+          justify-content: unset;
+
+          > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  .submenu {
+    background-color: #7dc02f;
+
+    .submenu_list_item {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+
+      .Logo {
+        width: 28px !important;
+        padding: 10px 12px;
+      }
+
+      span {
+        text-align: right !important;
+        display: flex;
+        margin-left: 15px;
+        align-items: center;
+        svg {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hover:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.openDrawer {
+  overflow: unset !important;
+  padding: 0 !important;
+}

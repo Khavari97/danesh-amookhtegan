@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test uploadFile component snapshot 1`] = `
+<form
+  encType="multipart/form-data"
+>
+  <div
+    className="dzu-dropzone"
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    style={
+      Object {
+        "border": "dashed 3px rgba(0,0,0,0.5)",
+        "borderRadius": "10px",
+        "color": "black",
+        "overflow": "auto",
+      }
+    }
+  >
+    <label
+      className="dzu-inputLabel"
+      style={
+        Object {
+          "color": "rgba(0,0,0,0.5)",
+          "fontFamily": "shabnam",
+          "fontSize": "0.9rem",
+        }
+      }
+    >
+      فایل مورد نظر خود را بکشید و دراین قسمت رها کنید 
+      <input
+        accept=".pdf"
+        className="dzu-input"
+        disabled={false}
+        multiple={true}
+        onChange={[Function]}
+        type="file"
+      />
+    </label>
+  </div>
+</form>
+`;

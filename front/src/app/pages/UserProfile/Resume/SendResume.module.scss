@@ -1,0 +1,93 @@
+.resumeContainer {
+  width: 90% !important;
+  margin: 0 auto;
+  padding: 7% 5%;
+  background-color: #f5fceb;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.header {
+  border-bottom: 4px solid #046b00;
+  justify-content: space-between;
+  display: block;
+  width: 100%;
+
+  span {
+    margin-right: 10px;
+  }
+
+  p {
+    margin-right: 10px;
+  }
+
+  a {
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  a:hover {
+    color: #7DC02F;
+  }
+
+  .space {
+    margin-top: 50px;
+
+    div {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+.upload {
+  width: 100%;
+  margin-top: 10px;
+
+  .content {
+    margin: 30px auto;
+    font-size: 1.5em;
+    text-align: center;
+
+    p {
+      margin-right: 10px;
+    }
+
+    .showFile {
+      margin-top: 27px;
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .infoFile {
+        margin-bottom: 20px;
+
+        img {
+          width: 40px;
+        }
+
+        a {
+          font-size: 1.1rem;
+          color: rgba(0, 0, 0, 0.8);
+          margin-right: 10px;
+          word-break: break-all;
+          direction: ltr;
+        }
+
+        a:hover {
+          color: #046B00;
+        }
+
+      }
+
+      .btnDelete {
+        img {
+          width: 18px;
+
+        }
+      }
+    }
+
+  }
+
+}

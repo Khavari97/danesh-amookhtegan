@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="646.448" height="1103.803"
+     viewBox="0 0 646.448 1103.803">
+    <defs>
+        <filter id="حاشیه_سبز_پر_رنگ" x="0" y="0" width="646.448" height="1103.803" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" dy="10" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#حاشیه_سبز_پر_رنگ)">
+        <path id="حاشیه_سبز_پر_رنگ-2" data-name="حاشیه سبز پر رنگ"
+              d="M622.448,0s-44.62,194.1-156.17,296.723S292.261,421.659,267.72,495.282,240.948,586.753,243.179,640.3s-46.851,78.085-87.009,109.319,0,133.86-40.158,198.559-35.7,58.006-58.006,82.547S0,1079.8,0,1079.8V0Z"
+              transform="translate(2 2)" fill="#046b00"/>
+    </g>
+</svg>

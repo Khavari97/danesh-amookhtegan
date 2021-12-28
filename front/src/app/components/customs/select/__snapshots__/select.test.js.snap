@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` test of ProjectResult page  snapshot 1`] = `
+<div
+  className="MuiFormControl-root makeStyles-formControl-13"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+    data-shrink={false}
+    id="demo-simple-select-outlined-label"
+  >
+    string
+  </label>
+  <div
+    className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+    data-testid="select"
+    onClick={[Function]}
+    onSelect={[Function]}
+  >
+    <div
+      aria-haspopup="listbox"
+      aria-labelledby="demo-simple-select-outlined-label mui-component-select-age"
+      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+      id="mui-component-select-age"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
+    </div>
+    <input
+      aria-hidden={true}
+      className="MuiSelect-nativeInput"
+      data-testid="select-input"
+      id="demo-controlled-open-select"
+      name="age"
+      onAnimationStart={[Function]}
+      onChange={[Function]}
+      required={false}
+      tabIndex={-1}
+      value=""
+    />
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M7 10l5 5 5-5z"
+      />
+    </svg>
+    <fieldset
+      aria-hidden={true}
+      className="PrivateNotchedOutline-root-15 MuiOutlinedInput-notchedOutline"
+    >
+      <legend
+        className="PrivateNotchedOutline-legendLabelled-17"
+      >
+        <span>
+          string
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;

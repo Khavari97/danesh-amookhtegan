@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Resume component snapshot 1`] = `
+<div
+  className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
+      <img
+        alt=""
+        src="flesh1.svg"
+        style={
+          Object {
+            "width": "30px",
+          }
+        }
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+        data-test="title1"
+      >
+        در این قسمت شما می توانید رزومه ی خود را به صورت pdf بارگذاری کنید.
+      </p>
+    </li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
+      <span
+        data-test="title2"
+      >
+         توجه داشته باشید که رزومه ی شما توسط دیگر کاربران قابل مشاهده می باشد.
+      </span>
+    </li>
+  </div>
+  <div
+    className="MuiGrid-root space MuiGrid-item"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
+      <img
+        alt=""
+        data-test="flesh1"
+        src="flesh1.svg"
+        style={
+          Object {
+            "width": "30px",
+          }
+        }
+      />
+      <span
+        data-test="idea"
+      >
+        چند سایت پیشنهادی برای ساخت رزومه
+      </span>
+    </li>
+    <div
+      className="MuiGrid-root MuiGrid-item"
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            data-test="userProfile"
+            src="www.svg"
+            style={
+              Object {
+                "width": "25px",
+              }
+            }
+          />
+          <span>
+            <a
+              data-test="karboom.io"
+              href="https://karboom.io"
+              rel=""
+              target="_blank"
+            >
+               سایت کاربوم 
+            </a>
+          </span>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            src="www.svg"
+            style={
+              Object {
+                "width": "25px",
+              }
+            }
+          />
+          <span>
+            <a
+              data-test="cvbuilder.me"
+              href="https://cvbuilder.me"
+              rel=""
+              target="_blank"
+            >
+               سایت سی وی بیلدر 
+            </a>
+          </span>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root"
+        style={
+          Object {
+            "marginBottom": "50px",
+          }
+        }
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            src="www.svg"
+            style={
+              Object {
+                "width": "25px",
+              }
+            }
+          />
+          <span>
+            <a
+              data-test="rezome.com"
+              href="https://rezome.com"
+              rel=""
+              target="_blank"
+            >
+               سایت رزومه دات کام 
+            </a>
+          </span>
+        </li>
+      </div>
+    </div>
+  </div>
+</div>
+`;

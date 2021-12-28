@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test sendResume component snapshot 1`] = `
+<div
+  className="resumeContainer"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            src="flesh1.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            data-test="title1"
+          >
+            در این قسمت شما می توانید رزومه ی خود را به صورت pdf بارگذاری کنید.
+          </p>
+        </li>
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <span
+            data-test="title2"
+          >
+             توجه داشته باشید که رزومه ی شما توسط دیگر کاربران قابل مشاهده می باشد.
+          </span>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root space MuiGrid-item"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            data-test="flesh1"
+            src="flesh1.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <span
+            data-test="idea"
+          >
+            چند سایت پیشنهادی برای ساخت رزومه
+          </span>
+        </li>
+        <div
+          className="MuiGrid-root MuiGrid-item"
+          style={
+            Object {
+              "marginTop": "10px",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root"
+          >
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <img
+                alt=""
+                data-test="userProfile"
+                src="www.svg"
+                style={
+                  Object {
+                    "width": "25px",
+                  }
+                }
+              />
+              <span>
+                <a
+                  data-test="karboom.io"
+                  href="https://karboom.io"
+                  rel=""
+                  target="_blank"
+                >
+                   سایت کاربوم 
+                </a>
+              </span>
+            </li>
+          </div>
+          <div
+            className="MuiGrid-root"
+          >
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <img
+                alt=""
+                src="www.svg"
+                style={
+                  Object {
+                    "width": "25px",
+                  }
+                }
+              />
+              <span>
+                <a
+                  data-test="cvbuilder.me"
+                  href="https://cvbuilder.me"
+                  rel=""
+                  target="_blank"
+                >
+                   سایت سی وی بیلدر 
+                </a>
+              </span>
+            </li>
+          </div>
+          <div
+            className="MuiGrid-root"
+            style={
+              Object {
+                "marginBottom": "50px",
+              }
+            }
+          >
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <img
+                alt=""
+                src="www.svg"
+                style={
+                  Object {
+                    "width": "25px",
+                  }
+                }
+              />
+              <span>
+                <a
+                  data-test="rezome.com"
+                  href="https://rezome.com"
+                  rel=""
+                  target="_blank"
+                >
+                   سایت رزومه دات کام 
+                </a>
+              </span>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root upload MuiGrid-container MuiGrid-item"
+    >
+      <div
+        className="MuiGrid-root content MuiGrid-container MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item"
+          style={
+            Object {
+              "display": "table",
+              "margin": "0 auto",
+            }
+          }
+        >
+          <li
+            className="MuiListItem-root MuiListItem-gutters"
+            disabled={false}
+          >
+            <img
+              alt=""
+              data-test="upload"
+              src="uploadFile.svg"
+              style={
+                Object {
+                  "width": "30px",
+                }
+              }
+            />
+            <p
+              data-test="uploadFile"
+            >
+               بارگذاری فایل رزومه 
+            </p>
+          </li>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container"
+          style={
+            Object {
+              "display": "table",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginTop": "30px",
+                "width": "100%",
+              }
+            }
+          >
+            <form
+              encType="multipart/form-data"
+            >
+              <div
+                className="dzu-dropzone"
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDrop={[Function]}
+                style={
+                  Object {
+                    "border": "dashed 3px rgba(0,0,0,0.5)",
+                    "borderRadius": "10px",
+                    "color": "black",
+                    "overflow": "auto",
+                  }
+                }
+              >
+                <label
+                  className="dzu-inputLabel"
+                  style={
+                    Object {
+                      "color": "rgba(0,0,0,0.5)",
+                      "fontFamily": "shabnam",
+                      "fontSize": "0.9rem",
+                    }
+                  }
+                >
+                  فایل مورد نظر خود را بکشید و دراین قسمت رها کنید 
+                  <input
+                    accept=".pdf"
+                    className="dzu-input"
+                    disabled={false}
+                    multiple={true}
+                    onChange={[Function]}
+                    type="file"
+                  />
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

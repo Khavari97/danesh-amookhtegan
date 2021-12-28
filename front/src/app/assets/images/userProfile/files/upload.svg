@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+    <g id="آیکون_ادد_کردن_عکس_پروفایل" data-name="آیکون ادد کردن عکس پروفایل" transform="translate(-2081 -424)">
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2081 424)" fill="#fff" stroke="#707070"
+           stroke-width="1">
+            <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+            <circle cx="21.5" cy="21.5" r="21" fill="none"/>
+        </g>
+        <path id="icons8_plus"
+              d="M24.687,3.188a21.5,21.5,0,1,0,21.5,21.5A21.5,21.5,0,0,0,24.687,3.188ZM36.154,27.814H27.814v8.339H21.56V27.814H13.22V21.56H21.56V13.22h6.255V21.56h8.339Z"
+              transform="translate(2077.812 420.812)" fill="#008595"/>
+    </g>
+</svg>

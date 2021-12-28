@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test set profile states snapshot 1`] = `
+<div
+  className="MuiGrid-root animate__animated animate__fadeIn MuiGrid-container"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+  >
+    <div
+      className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+    >
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+          data-testid="desc"
+        >
+          دانشجو
+        </p>
+      </li>
+    </div>
+  </div>
+</div>
+`;

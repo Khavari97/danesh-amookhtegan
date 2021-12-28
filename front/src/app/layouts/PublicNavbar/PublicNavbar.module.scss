@@ -1,0 +1,176 @@
+.mainNav {
+  margin-bottom: 30px;
+
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+  .navbar {
+    background: #7DC02F;
+    margin: 0;
+    border: none;
+    height: 35px;
+    padding: 15px;
+
+    .appIcon {
+      color: #F5FCEB;
+      font-size: 1.7rem;
+      float: right;
+      margin-right: 30px;
+      margin-top: 3px;
+
+    }
+
+    .title {
+      margin-right: 20px;
+      margin-top: 3px;
+      color: #F5FCEB;
+      font-family: shabnam, serif;
+      font-size: 1.2em;
+      font-weight: 400;
+      float: right;
+    }
+
+    .signUpButton {
+      float: left;
+      background: #F5FCEB;
+      color: #7DC02F;
+      border-radius: 7px;
+      padding: 7px 25px;
+      margin-left: 20px;
+      font-size: 0.9rem;
+    }
+
+    .signUpButton:hover {
+      background: #046B00;
+      color: #F5FCEB;
+    }
+
+    .signInButton {
+      float: left;
+      background: #7DC02F;
+      color: #F5FCEB;
+      border: 2px solid #F5FCEB;
+      border-radius: 7px;
+      padding: 5px 25px;
+      margin-left: 10px;
+      font-size: 1rem;
+
+    }
+
+    .signInButton:hover {
+      color: #046B00;
+      border-color: #046B00;
+
+    }
+
+  }
+}
+
+.header {
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .divSearch {
+    position: absolute;
+    top: 21vw;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+
+    .inputSearch {
+      background: #FFFFFF;
+      width: 50%;
+      border-radius: 5px;
+      padding: 6px 10px;
+      margin-left: 10px;
+
+    }
+
+    .iconSearch {
+      color: white;
+      width: 25px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.footer {
+  background: #7dc02f;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+}
+
+h2:before, h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+  margin: auto;
+}
+
+h2:before {
+  margin-left: 20px;
+}
+
+h2:after {
+  margin-right: 20px;
+}
+
+.ourProjects {
+  margin: 40px 0;
+
+  .projects {
+    width: 90%;
+    margin: 30px auto;
+    justify-content: center;
+  }
+}
+
+.ourMembers {
+  margin: 40px 0;
+
+  .members {
+    width: 80%;
+    margin: 30px auto;
+    justify-content: center;
+  }
+}
+
+.employers {
+  margin: 40px 0;
+}
+
+.more {
+  text-align: center;
+
+  a {
+    color: #046B00;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+
+  :hover {
+    color: #7dc02f;
+  }
+}
+
+
+@media screen and(max-width: 640px) {
+  .header {
+    .image {
+      margin-top: 10vw;
+    }
+  }
+}
+
+
+

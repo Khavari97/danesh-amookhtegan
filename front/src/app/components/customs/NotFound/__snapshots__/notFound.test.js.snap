@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render NotFound component without error snapshot 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+  style={
+    Object {
+      "marginTop": "50px",
+    }
+  }
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+    style={
+      Object {
+        "marginRight": "10px",
+      }
+    }
+  />
+</div>
+`;

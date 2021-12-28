@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly page snapshot 1`] = `
+<form
+  className="formContainer"
+  onSubmit={[Function]}
+>
+  <div
+    className="MuiGrid-root animate__animated animate__fadeIn MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="firstName"
+          data-testid="firstName"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            نام
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="firstName"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  نام
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="lastName"
+          data-testid="lastName"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            نام خانوادگی
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="lastName"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  نام خانوادگی
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root makeStyles-formControl-6"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+            id="demo-simple-select-outlined-label"
+          >
+            جنسیت
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            data-testid="select"
+            onClick={[Function]}
+            onSelect={[Function]}
+          >
+            <div
+              aria-haspopup="listbox"
+              aria-labelledby="demo-simple-select-outlined-label mui-component-select-age"
+              className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+              id="mui-component-select-age"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&#8203;",
+                  }
+                }
+              />
+            </div>
+            <input
+              aria-hidden={true}
+              className="MuiSelect-nativeInput"
+              data-testid="gender"
+              id="demo-controlled-open-select"
+              name="age"
+              onAnimationStart={[Function]}
+              onChange={[Function]}
+              required={false}
+              tabIndex={-1}
+              value=""
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  جنسیت
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="username"
+          data-testid="username"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            نام کاربری
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="username"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  نام کاربری
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        data-testid="email"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <p
+            className="title"
+          >
+            ایمیل
+          </p>
+        </li>
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <p
+            className="description"
+          />
+        </li>
+      </div>
+      <div>
+        <button
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <img
+              alt=""
+              src="alert.svg"
+              style={
+                Object {
+                  "width": "20px",
+                }
+              }
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="province"
+          data-testid="province"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            استان
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="province"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  استان
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="city"
+          data-testid="city"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            شهر
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="city"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  شهر
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="university"
+          data-testid="university"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+            data-shrink={false}
+          >
+            دانشگاه
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="university"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4"
+              >
+                <span>
+                  دانشگاه
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root gridItems MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root gridInputs MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root Input-root-1"
+          data-test="phoneNumber"
+          data-testid="phoneNumber"
+          onMouseOver={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+            data-shrink={true}
+          >
+            شماره تلفن
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input"
+              disabled={false}
+              name="phoneNumber"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="+98"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="PrivateNotchedOutline-legendLabelled-4 PrivateNotchedOutline-legendNotched-5"
+              >
+                <span>
+                  شماره تلفن
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

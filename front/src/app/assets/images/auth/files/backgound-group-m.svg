@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="691.105"
+     viewBox="0 0 324 691.105">
+    <defs>
+        <filter id="حاشیه_سبز_کم_رنگ" x="0" y="492.723" width="265.179" height="198.382" filterUnits="userSpaceOnUse">
+            <feOffset dx="-10" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="حاشیه_سبز_پر_رنگ" x="135.076" y="381" width="188.924" height="310.105" filterUnits="userSpaceOnUse">
+            <feOffset dx="-10" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="blur-2"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="حاشیه_سبز_کم_رنگ-2" x="3.82" y="0" width="265.179" height="198.382" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="4" result="blur-3"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_63" data-name="Group 63" transform="translate(-53 12)">
+        <g transform="matrix(1, 0, 0, 1, 53, -12)" filter="url(#حاشیه_سبز_کم_رنگ)">
+            <path id="حاشیه_سبز_کم_رنگ-3" data-name="حاشیه سبز کم رنگ"
+                  d="M-6.693,174.382A293.355,293.355,0,0,1,24.636,126.5c19.934-24.827,43.152-24.236,49.655-27.192s24.958-4.729,40.788-24.827S139.325,51.428,140.5,50.246s18.943-13.6,45.913-15.96S234.486,0,234.486,0V174.382Z"
+                  transform="translate(28.69 504.72)" fill="#7dc02f"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 53, -12)" filter="url(#حاشیه_سبز_پر_رنگ)">
+            <path id="حاشیه_سبز_پر_رنگ-2" data-name="حاشیه سبز پر رنگ"
+                  d="M0,286.1s11.823-51.428,41.379-78.62,46.108-33.1,52.61-52.61,7.093-24.236,6.5-38.423S112.9,95.762,123.545,87.487s0-35.468,10.64-52.61S143.644,19.507,149.555,13,164.924,0,164.924,0V286.1Z"
+                  transform="translate(157.08 393)" fill="#046b00"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 53, -12)" filter="url(#حاشیه_سبز_کم_رنگ-2)">
+            <path id="حاشیه_سبز_کم_رنگ-4" data-name="حاشیه سبز کم رنگ"
+                  d="M234.486,0a293.353,293.353,0,0,1-31.329,47.881C183.223,72.709,160,72.117,153.5,75.073S128.544,79.8,112.715,99.9,88.469,122.954,87.3,124.137s-18.943,13.6-45.913,15.96S-6.693,174.382-6.693,174.382V0Z"
+                  transform="translate(12.51 12)" fill="#7dc02f"/>
+        </g>
+    </g>
+</svg>

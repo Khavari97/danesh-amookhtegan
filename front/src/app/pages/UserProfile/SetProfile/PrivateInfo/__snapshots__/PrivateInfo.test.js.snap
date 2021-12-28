@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test set profile states snapshot 1`] = `
+<div
+  className="MuiGrid-root privateInfo animate__animated animate__fadeIn MuiGrid-container"
+>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          نام
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="firstName"
+        >
+          آتنا
+        </p>
+      </li>
+    </div>
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          نام خانوادگی
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="lastName"
+        >
+          گنجی
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          جنسیت
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="genderDisplay"
+        >
+          زن
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          نام کاربری
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="username"
+        >
+          atena
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          ایمیل
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="email"
+        >
+          atena.ganji.ag@gmail.com
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          استان
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="province"
+        >
+          تهران
+        </p>
+      </li>
+    </div>
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          شهر
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="city"
+        >
+          تهران
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          دانشگاه
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="university"
+        >
+          خوارزمی
+        </p>
+      </li>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="title"
+        >
+          شماره تلفن
+        </p>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <p
+          className="description"
+          data-testid="phoneNumber"
+        >
+          +989011625458
+        </p>
+      </li>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render search input component without error snapshot 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-item"
+  style={
+    Object {
+      "display": "flex",
+      "margin": "5px 0 40px 0",
+      "padding": 5,
+      "textAlign": "center",
+    }
+  }
+>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth"
+    data-test="placeholder"
+    onClick={[Function]}
+  >
+    <input
+      className="MuiInputBase-input MuiInput-input"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="مهارت یا اسم پروژه یا نام کاربری فرد مورد نظر خود را وارد کنید"
+      type="text"
+    />
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+    data-test="btnSearch"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "marginRight": 5,
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      جستجو
+      <img
+        alt=""
+        src="search.svg"
+        style={
+          Object {
+            "marginRight": 5,
+          }
+        }
+        width="100%"
+      />
+    </span>
+  </button>
+</div>
+`;

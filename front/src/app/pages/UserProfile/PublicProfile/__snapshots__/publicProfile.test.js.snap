@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test public profile states snapshot 1`] = `
+<div>
+  <div
+    className="MuiGrid-root publicInfo MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h1
+        className="MuiTypography-root animate__animated animate__zoomIn MuiTypography-h1"
+        style={
+          Object {
+            "marginBottom": "40px",
+          }
+        }
+      >
+         پروفایل  
+      </h1>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+        data-test="avater"
+        style={
+          Object {
+            "height": "100px",
+            "width": "100px",
+          }
+        }
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiAvatar-fallback"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root infoGrid MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <img
+            alt=""
+            src="customer.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            data-test="personal"
+          >
+            اطلاعات شخصی
+          </p>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                نام
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+                data-test="firstName"
+              >
+                
+              </p>
+            </li>
+          </div>
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                نام خانوادگی
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+                data-test="lastName"
+              >
+                
+              </p>
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                جنسیت
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+              >
+                
+              </p>
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                نام کاربری
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+              >
+                
+              </p>
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                ایمیل
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+              />
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                استان
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+                data-test="province"
+              />
+            </li>
+          </div>
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                شهر
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+                data-test="city"
+              />
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                دانشگاه
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+              />
+            </li>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root gridItems MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="title"
+              >
+                شماره تلفن
+              </p>
+            </li>
+            <li
+              className="MuiListItem-root MuiListItem-gutters"
+              disabled={false}
+            >
+              <p
+                className="description"
+              >
+                
+              </p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root infoGrid MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <img
+            alt=""
+            src="new_topic.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            data-test="about"
+          >
+            درباره ی من
+          </p>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <p
+            className="title"
+          >
+            
+          </p>
+        </li>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root infoGrid MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <img
+            alt=""
+            src="development_skill.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            مهارت ها
+          </p>
+        </li>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root infoGrid MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <img
+            alt=""
+            src="attach.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            رزومه ضمیمه شده
+          </p>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <img
+            alt=""
+            src="pdfFile.svg"
+            style={
+              Object {
+                "marginLeft": "4px",
+                "width": "40px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+            style={
+              Object {
+                "wordBreak": "break-all",
+              }
+            }
+          >
+            رزومه ای بارگزاری نشده است
+          </p>
+        </li>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        style={
+          Object {
+            "textAlign": "left",
+          }
+        }
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+          data-test="resume"
+          disabled={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            دانلود رزومه 
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root infoGrid MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiGrid-root header MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+          style={
+            Object {
+              "padding": "0",
+            }
+          }
+        >
+          <img
+            alt=""
+            src="projects.svg"
+            style={
+              Object {
+                "width": "30px",
+              }
+            }
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            پروژه ها
+          </p>
+        </li>
+      </div>
+    </div>
+  </div>
+</div>
+`;

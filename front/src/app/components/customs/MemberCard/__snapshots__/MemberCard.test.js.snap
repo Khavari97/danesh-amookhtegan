@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input component snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root makeStyles-root-1"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root makeStyles-flexGrid-2 MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            style={
+              Object {
+                "height": 100,
+                "width": 100,
+              }
+            }
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiAvatar-fallback"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-flexGrid-2 MuiGrid-item MuiGrid-grid-xs-12"
+          data-test="name"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            undefined undefined
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-flexGrid-2 MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            data-test="city"
+          >
+            شهر و استان ثبت نشده
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+          style={
+            Object {
+              "direction": "rtl",
+              "textAlign": "right",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            data-test="desc"
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+              }
+            }
+          >
+            توضیحاتی موجود نیست
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiCardActions-root MuiCardActions-spacing"
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <a
+            className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            style={
+              Object {
+                "color": "white",
+                "textDecoration": "none",
+              }
+            }
+          >
+            مشاهده رزومه
+          </a>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
